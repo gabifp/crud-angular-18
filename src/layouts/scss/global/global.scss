@@ -1,6 +1,7 @@
-@import '../global/variables';
-@import '../components/theme-palette.scss';
-@import '../components/utilities/colors.scss';
+@use '../global/variables';
+@use '../components/theme-palette.scss';
+@use '../components/card.scss';
+@use '../components/utilities/colors.scss';
 
 
 html, body {

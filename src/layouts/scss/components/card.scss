@@ -1,0 +1,9 @@
+@use '@angular/material' as mat;
+@use '../global/variables';
+
+:root {
+  @include mat.card-overrides((
+    subtitle-text-color: var(--primary-color),
+    elevated-container-color: var(--accent-color),
+  ));
+}
